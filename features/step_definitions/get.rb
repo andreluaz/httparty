@@ -15,4 +15,5 @@ require 'httparty'
     puts @retorno.body
     #puts "Nome: #{@retorno.nome}"
     #puts "Location: #{retorno.location}"
+    #puts (@retorno.code)
   end
