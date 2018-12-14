@@ -6,6 +6,9 @@ Consumir uma API Json-Server usando GET e POST com httparty
 É necessário a instalação do Json-Server, sua instalação poderá ser seguida neste link abaixo:
 https://github.com/danilopolicarpos/Httparty
 
+Também é necessário a instalação do Bundle:
+https://bundler.io/
+
 ## Clonando o repositório
 
 Para fazer uma cópia "clone" do repositório é necessário a instalação do git para isto basta seguir os passos deste link:
