@@ -36,8 +36,15 @@ Isto fará a instalação das dependências necessárias para a execução dos t
 
 ## Uso:
 
-Para usar, não esquecer de iniciar o json-server e então digite:
+Para usar, não esquecer de iniciar o json-server e então para executar todas as features digite:
 
 ```
 cucumber
 ```
+
+Caso necessite executar apenas uma feature digite:
+
+```
+cucumber feature/nome da feature desejada.feature
+```
+
