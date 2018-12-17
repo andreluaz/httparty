@@ -11,9 +11,5 @@ require 'httparty'
   end
   
   Entao("retorna a lista") do
-    @retorno.body
-    puts @retorno.body
-    #puts "Nome: #{@retorno.nome}"
-    #puts "Location: #{retorno.location}"
-    #puts (@retorno.code)
+    expect(@retorno.success?).to eq(true)
   end

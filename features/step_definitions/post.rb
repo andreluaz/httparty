@@ -20,5 +20,4 @@
   
   Entao("retorna um código de sucesso") do
     expect(@retorno.code).to eq 201
-    puts (@retorno.code)
   end
