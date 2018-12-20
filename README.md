@@ -1,28 +1,25 @@
-# httparty com cucumber
-Consumir uma API Json-Server usando GET e POST com httparty
+# httparty + cucumber
+Consumir uma API Json-Server usando httparty + cucumber, GET e POST.
 
 ## Pré-requisito
 
-É necessário a instalação do Json-Server, sua instalação poderá ser seguida neste link abaixo:
-https://github.com/danilopolicarpos/Httparty
+É necessário a instalação do Json-Server, para instalar digite em seu terminal:
+
+```
+npm install -g json-server
+```
 
 Também é necessário a instalação do Bundle:
-https://bundler.io/
+
+```
+gem install bundler
+```
 
 ## Clonando o repositório
 
-Para fazer uma cópia "clone" do repositório é necessário a instalação do git para isto basta seguir os passos deste link:
-https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
-
-Após a instalação do git digite:
+Clone o Repositório:
 ```
 git clone https://github.com/andreluaz/httparty.git
-```
-## Iniciando o json-server
-
-Após a cópia "clonagem" do repositório e a instalação do Json-Server digite:
-```
-json-server --watch info.json
 ```
 
 ## Instalação das dependências:
@@ -34,9 +31,16 @@ bundle install
 
 Isto fará a instalação das dependências necessárias para a execução dos testes.
 
-## Uso:
+## Iniciando o json-server
 
-Para usar, não esquecer de iniciar o json-server e então para executar todas as features digite:
+Após a cópia "clonagem" do repositório e a instalação do Json-Server digite:
+```
+json-server --watch info.json
+```
+
+## Execução dos Testes:
+
+Para executar os testes abra uma nova aba no terminal e digite:
 
 ```
 cucumber
