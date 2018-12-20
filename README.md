@@ -22,7 +22,7 @@ Clone o Repositório:
 git clone https://github.com/andreluaz/httparty.git
 ```
 
-## Instalação das dependências:
+## Instalação das dependências
 
 Após a clonagem do repositório digite:
 ```
@@ -38,7 +38,7 @@ Após a cópia "clonagem" do repositório e a instalação do Json-Server digite
 json-server --watch info.json
 ```
 
-## Execução dos Testes:
+## Execução dos Testes
 
 Para executar os testes abra uma nova aba no terminal e digite:
 
@@ -52,3 +52,8 @@ Caso necessite executar apenas uma feature digite:
 cucumber feature/nome da feature desejada.feature
 ```
 
+## Arquitetura do Projeto
+
+```
+
+```
