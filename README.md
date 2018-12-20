@@ -24,7 +24,7 @@ git clone https://github.com/andreluaz/httparty.git
 
 ## Instalação das dependências:
 
-Após a cópia "clonagem" do repositório digite:
+Após a clonagem do repositório digite:
 ```
 bundle install
 ```
