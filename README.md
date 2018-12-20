@@ -1,5 +1,5 @@
 # httparty + cucumber
-Consumir uma API Json-Server usando httparty + cucumber efetuando um GET e POST na API.
+Consumir uma API Json-Server usando httparty + cucumber, efetuando um GET e POST na API.
 
 ## Pré-requisito
 
