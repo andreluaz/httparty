@@ -64,7 +64,7 @@ HTTParty
 │   ├── get.feature          - Feature escrita para os testes
 │   └── post.feature
 │── .gitignore
-├── Gemfile                  - Dependencias usada no projeto
+├── Gemfile                  - Dependências usada no projeto
 ├── Gemfile.lock             - Versões das gens instaladas
 ├── README.md   
 └── info.json                - Arquivo usado pelo Json-server
