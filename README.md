@@ -3,13 +3,25 @@ Consumir uma API Json-Server usando httparty + cucumber, efetuando um GET e POST
 
 ## Pré-requisito
 
-É necessário a instalação do Json-Server, para instalar digite em seu terminal:
+É necessário a instalação do node e npm, para instalar digite em seu terminal:
+
+```
+brew install node
+```
+
+A instalação do ruby:
+
+```
+brew install ruby
+```
+
+A instalação do Json-Server:
 
 ```
 npm install -g json-server
 ```
 
-Também é necessário a instalação do Bundle:
+E também é necessário a instalação do Bundle:
 
 ```
 gem install bundler
