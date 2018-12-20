@@ -55,7 +55,7 @@ cucumber feature/nome da feature desejada.feature
 ## Arquitetura do Projeto
 
 ```
-HTTParty-Contrato
+HTTParty
 ├── features
 │   ├── step_definitions     - Snippets para implementar os testes
 │   │   ├── get.rb
