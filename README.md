@@ -33,7 +33,8 @@ Isto fará a instalação das dependências necessárias para a execução dos t
 
 ## Iniciando o json-server
 
-Após a cópia "clonagem" do repositório e a instalação do Json-Server digite:
+Iniciar o Json-Server:
+
 ```
 json-server --watch info.json
 ```
@@ -68,3 +69,7 @@ HTTParty
 ├── README.md   
 └── info.json                - Arquivo usado pelo Json-server
 ```
+
+## Referências
+
+Link para maiores informações sobre o httparty: https://www.rubydoc.info/github/jnunemaker/httparty
